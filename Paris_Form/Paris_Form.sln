@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paris_Form", "Paris_Form\Paris_Form.csproj", "{C4114906-BD5A-4702-9CC9-FF4BCD561D16}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Paris", "Paris\Paris.vdproj", "{8FD0BD4A-C6D1-423E-A5F6-EC12FFA72359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4114906-BD5A-4702-9CC9-FF4BCD561D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4114906-BD5A-4702-9CC9-FF4BCD561D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4114906-BD5A-4702-9CC9-FF4BCD561D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4114906-BD5A-4702-9CC9-FF4BCD561D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD0BD4A-C6D1-423E-A5F6-EC12FFA72359}.Debug|Any CPU.ActiveCfg = Debug
+		{8FD0BD4A-C6D1-423E-A5F6-EC12FFA72359}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1901CDF8-BF6A-4DC1-8A65-E488C69C73FB}
+	EndGlobalSection
+EndGlobal

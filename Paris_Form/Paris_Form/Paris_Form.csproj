@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4114906-BD5A-4702-9CC9-FF4BCD561D16}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Paris_Form</RootNamespace>
+    <AssemblyName>Paris_Form</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FDangki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDangki.Designer.cs">
+      <DependentUpon>FDangki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDangNhap.Designer.cs">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FHoa_don.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FHoa_don.Designer.cs">
+      <DependentUpon>FHoa_don.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FKhach_Hang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FKhach_Hang.Designer.cs">
+      <DependentUpon>FKhach_Hang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FNhan_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FNhan_vien.Designer.cs">
+      <DependentUpon>FNhan_vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSan_pham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSan_pham.Designer.cs">
+      <DependentUpon>FSan_pham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FThem_HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThem_HD.Designer.cs">
+      <DependentUpon>FThem_HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTrang_chu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FTrang_chu.Designer.cs">
+      <DependentUpon>FTrang_chu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FDangki.resx">
+      <DependentUpon>FDangki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDangNhap.resx">
+      <DependentUpon>FDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FHoa_don.resx">
+      <DependentUpon>FHoa_don.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FKhach_Hang.resx">
+      <DependentUpon>FKhach_Hang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FNhan_vien.resx">
+      <DependentUpon>FNhan_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSan_pham.resx">
+      <DependentUpon>FSan_pham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FThem_HD.resx">
+      <DependentUpon>FThem_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FTrang_chu.resx">
+      <DependentUpon>FTrang_chu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paris-gateaux1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuyen-du-lieu-hoa-don-dien-tu_1410090707.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foody-upload-api-foody-mobile-cover-200522152648.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-invoice-icon-design-vector-png-image_1586820.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice-icon-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_398813060_q2qLbVwYUnfxwdzbOoivPSjE5vwutTFZ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_209861750_nj9LnTcDbDIVOkJg7EiE6E9fZ7U31Sjf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-cake-birthday-design-graphic-template-vector-png-image_1571124.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mot-loat-clip-quang-cao-tiem-banh-khien-ban-phat-cuong-vi-qua-dep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-bia-ve-do-an-telasm-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89eed39935be2b2a5395665b73246ebe.jPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-bia-ve-do-an-telasm-24.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
